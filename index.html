@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mulok Kelas XI – Adat Dayak Kalimantan Tengah</title>
+<style>
+:root{--bg:#fbf6ec;--card:#fff;--ink:#2a2118;--mut:#7a6a58;--pri:#1f6b4a;--pri2:#e0a526;--acc:#b5412a;--line:#eadfca;--ok:#1f8a4c;--bad:#c0392b;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17130e;--card:#221c14;--ink:#f3eadb;--mut:#b4a58f;--pri:#3fb383;--pri2:#e8b53f;--acc:#e8795f;--line:#3a3023}}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Segoe UI",system-ui,sans-serif}
+.hero{background:linear-gradient(135deg,#144d36,#1f6b4a 55%,#b5412a);color:#fff;padding:32px 20px 56px;text-align:center;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:0;opacity:.12;background:repeating-linear-gradient(45deg,#fff 0 6px,transparent 6px 22px)}
+.hero h1{margin:0;font-size:clamp(1.5rem,5vw,2.3rem);position:relative}
+.hero p{margin:6px 0 0;opacity:.9;position:relative}
+.wrap{max-width:900px;margin:-32px auto 40px;padding:0 14px}
+.tabs{display:flex;gap:6px;background:var(--card);padding:6px;border-radius:14px;box-shadow:0 4px 18px #0002;position:sticky;top:calc(env(safe-area-inset-top,0px) + 6px);z-index:5}
+.tab{flex:1;border:0;background:none;color:var(--mut);font:600 .95rem inherit;padding:11px 6px;border-radius:10px;cursor:pointer}
+.tab.on{background:var(--pri);color:#fff}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;margin-top:16px}
+h2{margin:0 0 10px;color:var(--pri)}
+h3{margin:0 0 6px;color:var(--acc)}
+.def{border-left:5px solid var(--pri2);background:#e0a52618;padding:12px 16px;border-radius:0 12px 12px 0}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.mini{border:1px solid var(--line);border-radius:14px;padding:14px;background:var(--bg)}
+.mini b{font-size:1.05rem}
+.tag{display:inline-block;font-size:.72rem;font-weight:700;background:var(--pri);color:#fff;border-radius:99px;padding:2px 10px;margin-bottom:6px}
+label{font-weight:600;font-size:.9rem;display:block;margin-bottom:4px}
+input,select{width:100%;padding:11px 12px;border:2px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:inherit}
+input:focus,select:focus{outline:none;border-color:var(--pri)}
+.row{display:grid;gap:12px;grid-template-columns:1fr 1fr}
+@media(max-width:560px){.row{grid-template-columns:1fr}}
+.btn{border:0;background:var(--pri);color:#fff;padding:12px 22px;border-radius:12px;font:700 1rem inherit;cursor:pointer}
+.btn.alt{background:var(--acc)}.btn.ghost{background:none;color:var(--pri);border:2px solid var(--pri)}
+.btn:disabled{opacity:0.6;cursor:not-allowed}
+.q{border:1px solid var(--line);border-radius:14px;padding:14px;margin-top:12px;background:var(--card)}
+.q .n{font-weight:800;color:var(--acc)}
+.opt{display:flex;gap:10px;align-items:flex-start;padding:9px 12px;margin-top:6px;border:2px solid var(--line);border-radius:10px;cursor:pointer}
+.opt:hover{border-color:var(--pri)}
+.opt.sel{border-color:var(--pri);background:#1f6b4a18}
+.opt.ok{border-color:var(--ok);background:#1f8a4c22}.opt.no{border-color:var(--bad);background:#c0392b22}
+.opt input{width:auto;margin-top:5px}
+.bar{height:8px;background:var(--line);border-radius:99px;overflow:hidden}.bar i{display:block;height:100%;background:var(--pri2);width:0;transition:.3s}
+.score{text-align:center;padding:24px}.score .big{font-size:3.5rem;font-weight:800;color:var(--pri)}
+table{width:100%;border-collapse:collapse;font-size:.92rem}
+th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line)}
+.scroll{overflow-x:auto}
+.cls{border-radius:14px;overflow:hidden;margin-top:14px;border:2px solid var(--c)}
+.cls header{background:var(--c);color:#fff;padding:10px 14px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;font-weight:700}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}
+.chip{border:2px solid var(--c,var(--pri));background:none;color:var(--ink);padding:5px 14px;border-radius:99px;font:600 .85rem inherit;cursor:pointer}
+.chip.on{background:var(--c,var(--pri));color:#fff}
+.note{font-size:.85rem;color:var(--mut)}
+.pill{padding:2px 10px;border-radius:99px;font-weight:700;color:#fff;font-size:.8rem}
+.hide{display:none}
+</style>
+</head>
+<body>
+<div class="hero"><h1>🌿 Muatan Lokal Kelas XI</h1><p>Adat Istiadat &amp; Kearifan Lokal Suku Dayak – Kalimantan Tengah</p></div>
+<div class="wrap">
+<div class="tabs">
+<button class="tab on" data-t="materi">📖 Materi</button>
+<button class="tab" data-t="soal">📝 Soal</button>
+<button class="tab" data-t="rekap">🏆 Rekap Nilai</button>
+</div>
+
+<section id="materi">
+<div class="card"><h2>Pengertian Adat Istiadat</h2>
+<div class="def">Menurut KBBI, adat istiadat ialah tata kelakuan yang turun-temurun dan kekal dari generasi satu ke generasi lainnya sebagai warisan, sehingga integrasinya kuat terkait dengan pola perilaku masyarakat.</div></div>
+<div class="card"><h2>Upacara Adat di Kalimantan Tengah</h2>
+<div class="grid">
+<div class="mini"><span class="tag">1</span><br><b>Mamapas Lewu</b><p>Ritual umat penganut agama Kaharingan untuk membersihkan alam dan lingkungan hidup (<i>petak danum</i>) beserta isinya dari berbagai marabahaya, sial, wabah penyakit (<i>rutas pali</i>), dan sebagainya.</p></div>
+<div class="mini"><span class="tag">2</span><br><b>Tiwah</b><p>Upacara bagi seseorang yang telah meninggal. Dilakukan pemindahan tulang ke dalam <i>sandung</i> menurut tahap-tahap yang sudah menjadi tradisi masyarakat Dayak di Kalimantan Tengah.</p></div>
+<div class="mini"><span class="tag">3</span><br><b>Tetek Pantan</b><p>Upacara yang dilakukan dengan rasa bakti dan kepercayaan tinggi; membangkitkan rasa Ketuhanan terhadap segala yang sakral sehingga manusia merasakan rahmat-Nya.</p></div>
+<div class="mini"><span class="tag">4</span><br><b>Nyaki Tihi</b><p>Upacara/kegiatan tradisi bagi perempuan yang sedang hamil anak pertama atau <i>Temei</i> (bahasa Dayak Ngaju).</p></div>
+<div class="mini"><span class="tag">5</span><br><b>Nahunan</b><p>Kewajiban yang tertuang dalam kitab suci Panaturan pasal 53. Berasal dari kata “nuhun” yang berarti turun. Ritual pemberian nama bagi bayi berusia satu bulan atau balita yang dibawa turun keluar rumah.</p></div>
+</div></div>
+<div class="card"><h2>Hutan dalam Kearifan Lokal Dayak</h2>
+<p class="note">Ringkasan ini disusun dari bahan soal.</p>
+<p>Hutan adalah sumber kehidupan (makanan, obat-obatan, bahan bangunan, air bersih), penjaga kesuburan tanah, siklus air, dan keanekaragaman hayati, sekaligus tempat roh leluhur bersemayam. Menjaganya berarti menghormati leluhur dan menjamin keberlanjutan bagi generasi berikutnya.</p>
+<div class="grid">
+<div class="mini"><b>Tanah Ulen</b><p>Tradisi melindungi kawasan hutan tertentu dan mengurangi aktivitas manusia di dalamnya.</p></div>
+<div class="mini"><b>Tanean Ulen</b><p>Memberi waktu bagi hutan untuk memulihkan diri (regenerasi).</p></div>
+<div class="mini"><b>Pamali</b><p>Kepercayaan adat untuk menjaga keseimbangan alam; melarang penebangan pohon sembarangan.</p></div>
+<div class="mini"><b>Maraatn</b><p>Pembagian hasil hutan secara adil untuk mengurangi ketimpangan.</p></div>
+</div></div>
+<div style="text-align:center;margin-top:18px"><button class="btn" onclick="go('soal')">Mulai Kerjakan Soal →</button></div>
+</section>
+
+<section id="soal" class="hide">
+<div class="card" id="idBox"><h2>Identitas Siswa</h2>
+<div class="row"><div><label for="nama">Nama Lengkap</label><input id="nama" placeholder="Nama kamu" autocomplete="off"></div>
+<div><label for="kelas">Kelas</label><input id="kelas" list="kl" placeholder="Contoh: XI-1" autocomplete="off"><datalist id="kl"><option>XI-1</option><option>XI-2</option><option>XI-3</option><option>XI-4</option><option>XI-5</option><option>XI-6</option></datalist></div></div>
+<p class="note">50 soal pilihan ganda. Nilai = jumlah benar ÷ 50 × 100. Nilai otomatis masuk ke Rekap Nilai.</p>
+<button class="btn" onclick="startQ()">Mulai</button></div>
+<div id="quiz" class="hide">
+<div class="card" style="position:sticky;top:64px;z-index:4;padding:10px 16px"><div style="display:flex;justify-content:space-between;font-weight:700"><span id="who"></span><span id="prog">0/50</span></div><div class="bar"><i id="pb"></i></div></div>
+<div id="qs"></div>
+<div style="text-align:center;margin-top:18px"><button class="btn alt" id="btnSubmit" onclick="finish()">Kumpulkan Jawaban</button></div>
+</div>
+<div id="result" class="hide"></div>
+</section>
+
+<section id="rekap" class="hide">
+<div class="card"><h2>Rekap Nilai Siswa</h2>
+<div id="stat" class="note">Memuat data...</div>
+<div class="chips" id="chips"></div>
+<div id="tables"></div>
+<div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap">
+  <button class="btn ghost" onclick="fetchDataFromAppsScript()">🔄 Refresh Data</button>
+  <button class="btn ghost" onclick="dl()">⬇ Unduh CSV</button>
+</div></div>
+</section>
+</div>
+
+<script>
+// =========================================================================
+// MASUKKAN URL WEB APP GOOGLE APPS SCRIPT ANDA DI SINI
+// =========================================================================
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbx.../exec"; 
+
+const Q=[
+["Apa definisi adat istiadat menurut KBBI?",["Perilaku masyarakat sehari-hari","Tata kelakuan turun-temurun","Norma agama dan kepercayaan","Hukum adat masyarakat lokal","Ritual keagamaan"],1],
+["Apa tujuan dari ritual Mamapas Lewu?",["Meningkatkan hasil panen","Membersihkan alam dari marabahaya","Menghormati leluhur","Memberikan nama pada bayi","Mengadakan perayaan adat"],1],
+["Mamapas Lewu dijalankan oleh umat agama apa?",["Islam","Kristen","Kaharingan","Hindu","Buddha"],2],
+["Apa yang dilakukan dalam ritual Tiwah?",["Membersihkan rumah","Pemindahan tulang ke dalam sandung","Memberi nama bayi","Ritual kelahiran anak pertama","Menanam pohon adat"],1],
+["Apa tujuan dari upacara Tetek Pantan?",["Melakukan penyucian alam","Menunjukkan rasa bakti kepada Tuhan","Mengatur pembagian tanah","Merayakan panen","Menghormati leluhur"],1],
+["Upacara Nyaki Tihi dilakukan untuk siapa?",["Orang yang sudah meninggal","Bayi berusia satu bulan","Perempuan hamil anak pertama","Pasangan yang baru menikah","Anak laki-laki dewasa"],2],
+["Apa arti kata \"nuhun\" dalam ritual Nahunan?",["Kebersihan","Turun","Kelahiran","Kehormatan","Pelindung"],1],
+["Kapan ritual Nahunan biasanya dilakukan?",["Pada bayi berusia satu bulan atau balita","Setelah panen selesai","Saat seseorang meninggal dunia","Ketika anak mulai sekolah","Pada pernikahan adat"],0],
+["Kitab suci apa yang menjadi dasar pelaksanaan Nahunan?",["Panaturan","Alkitab","Weda","Quran","Upanishad"],0],
+["Apa isi pasal 53 dalam kitab Panaturan?",["Tata cara pemakaman","Aturan memberikan nama bayi","Ketentuan perayaan panen","Tata cara membersihkan rumah","Ritual kelahiran"],1],
+["Ritual Mamapas Lewu bertujuan untuk membersihkan apa?",["Rumah","Lingkungan hidup","Peralatan adat","Sungai dan gunung","Tempat ibadah"],1],
+["Ritual Tiwah dilakukan oleh suku apa?",["Suku Jawa","Suku Dayak","Suku Batak","Suku Bugis","Suku Sasak"],1],
+["Apa makna spiritual dari Tetek Pantan?",["Kesuburan tanah","Rahmat Tuhan","Penghormatan roh","Keseimbangan alam","Keberanian dalam perang"],1],
+["Apa jenis kegiatan dalam Nyaki Tihi?",["Pemindahan tulang","Ritual untuk bayi","Penyucian bagi ibu hamil","Pemberian nama","Perayaan panen"],2],
+["Nahunan adalah ritual yang dilakukan untuk...",["Memberikan nama bayi","Mengadakan pesta pernikahan","Membagi hasil panen","Menjaga kehormatan keluarga","Membersihkan lingkungan"],0],
+["Ritual apa yang dilakukan untuk pemberian nama bagi bayi dalam adat Dayak?",["Mamapas Lewu","Nahunan","Nyaki Tihi","Tetek Pantan","Tiwah"],1],
+["Upacara Tetek Pantan biasanya dilakukan dengan rasa apa?",["Bahagia","Ketakutan","Bakti dan kepercayaan","Netral","Kesedihan"],2],
+["Ritual Mamapas Lewu berfungsi untuk menangkal apa?",["Kemiskinan","Penyakit dan sial","Gangguan roh jahat","Kekeringan","Serangan hewan liar"],1],
+["Apa arti hutan bagi suku Dayak?",["Tempat rekreasi","Sumber utama kehidupan","Kawasan industri","Ladang bisnis","Tempat tinggal permanen"],1],
+["Apa saja yang disediakan oleh hutan untuk masyarakat Dayak?",["Energi listrik dan bahan bakar fosil","Makanan, obat-obatan, bahan bangunan, dan air bersih","Alat elektronik dan kendaraan","Peralatan modern dan mesin pertanian","Akses teknologi dan internet"],1],
+["Apa hubungan spiritual masyarakat Dayak dengan hutan?",["Tempat beristirahat","Sumber daya tanpa nilai spiritual","Tempat roh leluhur bersemayam","Ladang perburuan utama","Kawasan untuk upacara modern"],2],
+["Mengapa beberapa kawasan hutan dianggap keramat oleh masyarakat Dayak?",["Karena sering digunakan untuk pembangunan","Karena diyakini sebagai tempat roh leluhur","Karena tidak cocok untuk pertanian","Karena tidak menghasilkan sumber daya","Karena sering terjadi bencana alam"],1],
+["Apa peran hutan dalam menjaga ekosistem menurut masyarakat Dayak?",["Menyediakan tempat wisata","Meningkatkan aktivitas perdagangan","Menjaga kesuburan tanah, siklus air, dan keanekaragaman hayati","Menjadi pusat ekonomi lokal","Menyediakan energi terbarukan"],2],
+["Mengapa hutan dianggap sebagai warisan leluhur oleh suku Dayak?",["Karena hutan digunakan untuk ladang bisnis","Karena hutan menyimpan banyak barang berharga","Karena menjaga hutan dianggap menghormati leluhur","Karena hutan menjadi tempat tinggal permanen","Karena hutan selalu menjadi tempat berburu"],2],
+["Apa tanggung jawab masyarakat Dayak terhadap hutan?",["Mengeksploitasi hutan untuk keuntungan maksimal","Menjaga dan melestarikannya untuk generasi mendatang","Menebang pohon secara besar-besaran","Menggunakan hutan untuk pembangunan","Mengubah hutan menjadi kawasan industri"],1],
+["Apa keyakinan masyarakat Dayak tentang menjaga hutan?",["Tidak ada dampak langsung","Meningkatkan pendapatan ekonomi","Menjamin keberlanjutan sumber daya bagi generasi berikutnya","Menurunkan nilai spiritual hutan","Mengurangi ketergantungan pada tradisi leluhur"],2],
+["Apa tujuan utama tradisi masyarakat Dayak terkait hutan?",["Meningkatkan ekspor hasil hutan","Menjaga keberlanjutan dan menghormati leluhur","Mengurangi kepadatan penduduk","Membuka peluang investasi","Membuat hutan sebagai tempat wisata"],1],
+["Apa alasan utama masyarakat Dayak melakukan upacara adat di hutan?",["Untuk menarik wisatawan","Untuk menghormati leluhur dan nilai spiritual","Untuk meningkatkan hasil panen","Untuk mengusir satwa liar","Untuk mempromosikan kebudayaan kepada dunia"],1],
+["Apa nama kawasan hutan yang dilindungi oleh masyarakat adat Dayak?",["Tanean Ulen","Tanah Ulen","Maraatn","Pamali","Hutan Larangan"],1],
+["Apa tujuan tradisi Tanah Ulen?",["Mengelola hasil hutan untuk perdagangan","Melindungi kawasan hutan tertentu","Menyediakan ladang bagi warga","Melarang segala aktivitas ekonomi","Mengurangi deforestasi massal"],1],
+["Apa yang dimaksud dengan Pamali?",["Larangan berburu di kawasan tertentu","Larangan eksploitasi sumber daya berlebihan","Tradisi pembagian hasil hutan","Kepercayaan adat untuk menjaga keseimbangan alam","Ritual pembersihan hutan"],3],
+["Mengapa masyarakat Dayak menghormati hutan?",["Sebagai simbol ekonomi","Sebagai warisan budaya dan spiritual","Sebagai pusat peradaban","Sebagai tempat rekreasi utama","Sebagai ladang komersial"],1],
+["Apa fungsi utama hutan menurut suku Dayak?",["Ladang investasi modern","Sumber energi utama","Penyedia makanan, obat-obatan, dan air","Tempat perlindungan ekonomi","Lokasi pembangunan industri"],2],
+["Tradisi apa yang memungkinkan alam untuk memulihkan diri?",["Tanean Ulen","Pamali","Tanah Ulen","Maraatn","Hutan Adat"],0],
+["Apa yang diatur dalam tradisi Maraatn?",["Larangan memburu satwa tertentu","Pemanfaatan sumber daya secara tak terbatas","Pembagian hasil hutan","Ritual penghormatan hutan","Larangan membuka lahan baru"],2],
+["Apa tujuan utama dari aturan adat seperti Pamali?",["Melindungi keseimbangan alam","Meningkatkan populasi satwa liar","Membuka hutan baru","Mendukung pembangunan desa","Memanfaatkan kayu secara maksimal"],0],
+["Bagaimana suku Dayak menjaga keseimbangan dengan alam?",["Dengan pembukaan hutan besar-besaran","Dengan menerapkan aturan adat","Dengan membakar hutan untuk ladang","Dengan mengurangi ritual adat","Dengan menebang pohon secara selektif"],1],
+["Hutan bagi masyarakat Dayak adalah...",["Ladang ekonomi utama","Simbol spiritual dan sumber kehidupan","Pusat kegiatan perdagangan","Kawasan terbuka untuk pembangunan","Tempat berburu liar"],1],
+["Apa arti penting Tanean Ulen bagi masyarakat adat?",["Memberikan sumber daya tak terbatas","Membatasi deforestasi sementara","Memberikan waktu hutan untuk regenerasi","Memberikan akses komersial terbatas","Memberikan lahan bagi industri"],2],
+["Apa yang dilarang di kawasan Pamali?",["Ritual keagamaan","Penebangan pohon sembarangan","Pengumpulan hasil hutan secara moderat","Ritual adat tertentu","Pengelolaan air"],1],
+["Apa tujuan dari tradisi Marataatn?",["Menjaga keadilan dalam berbagi sumber daya","Menyediakan kawasan industri baru","Membuka ladang komersial","Menyediakan ruang bagi populasi satwa liar","Meningkatkan hasil panen"],0],
+["Apa manfaat tradisi Tanah Ulen?",["Mengurangi aktivitas manusia di hutan","Meningkatkan hasil ekspor kayu","Memperluas wilayah desa","Meningkatkan populasi satwa liar","Mengurangi polusi udara"],0],
+["Mengapa suku Dayak menjaga hutan sebagai bagian dari kearifan lokal?",["Untuk keperluan industri","Untuk melestarikan tradisi dan lingkungan","Untuk menarik wisatawan","Untuk penggalian tambang","Untuk membuka lahan perkebunan"],1],
+["Apa nama tradisi yang melarang berburu di kawasan tertentu?",["Maraatn","Tanean Ulen","Tanah Ulen","Pamali","Larangan Adat"],1],
+["Apa hubungan spiritual antara suku Dayak dan hutan?",["Hutan adalah tempat roh leluhur bersemayam","Hutan adalah pusat perdagangan","Hutan adalah pusat kegiatan ritual tahunan","Hutan adalah tempat penyimpanan barang berharga","Hutan adalah tempat pelarian saat konflik"],0],
+["Mengapa tradisi Pamali diterapkan?",["Untuk menjaga kekayaan masyarakat","Untuk melestarikan keseimbangan ekosistem","Untuk mempromosikan ritual baru","Untuk meningkatkan nilai ekonomi hutan","Untuk mendukung kegiatan berburu"],1],
+["Apa tujuan dari pembagian hasil hutan secara adil?",["Mengurangi ketimpangan ekonomi","Melestarikan lingkungan","Membuka akses lebih besar bagi masyarakat luar","Meningkatkan hasil panen","Menciptakan peluang investasi baru"],0],
+["Apa yang ditekankan dalam tradisi kearifan lokal Dayak?",["Eksploitasi sumber daya","Pelestarian lingkungan dan budaya","Perluasan kawasan hutan","Perdagangan hasil hutan","Modernisasi tradisi"],1],
+["Apa manfaat ekosistem hutan bagi suku Dayak?",["Tempat pembukaan ladang baru","Sumber bahan bakar","Sumber air bersih, pangan, dan obat","Sumber investasi ekonomi","Pusat aktivitas komersial"],2],
+["Bagaimana masyarakat Dayak menerapkan prinsip keberlanjutan?",["Dengan membakar hutan saat musim tanam","Dengan melarang semua kegiatan di hutan","Dengan menerapkan aturan adat seperti Tanah Ulen","Dengan menjual hutan kepada investor","Dengan membuka kawasan baru untuk industri"],2]
+];
+
+const L="ABCDE",$=id=>document.getElementById(id);
+const COL=["#1f6b4a","#b5412a","#2b5fa8","#8e44ad","#c27c0e","#0f8b8d","#c2185b","#5d6d1e"];
+let me=null,ans=[],rows=[],filter="ALL";
+
+function go(t){
+  ["materi","soal","rekap"].forEach(s=>$(s).classList.toggle("hide",s!==t));
+  document.querySelectorAll(".tab").forEach(b=>b.classList.toggle("on",b.dataset.t===t));
+  window.scrollTo({top:0,behavior:"smooth"});
+  if(t==="rekap") fetchDataFromAppsScript();
+}
+
+document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>go(b.dataset.t));
+const normK=s=>s.trim().toUpperCase().replace(/\s+/g,"").replace(/^XI(?=[^-])/,"XI-");
+
+function startQ(){
+ const n=$("nama").value.trim(),k=normK($("kelas").value);
+ if(!n||!k){alert("Isi nama dan kelas dulu ya.");return}
+ me={nama:n,kelas:k};ans=Array(Q.length).fill(-1);
+ $("who").textContent=n+" • "+k;
+ $("idBox").classList.add("hide");
+ $("quiz").classList.remove("hide");
+ $("qs").innerHTML=Q.map((q,i)=>`<div class="q"><div><span class="n">${i+1}.</span> ${q[0]}</div>${q[1].map((o,j)=>`<label class="opt" data-q="${i}" data-o="${j}"><input type="radio" name="q${i}"><span><b>${L[j]}.</b>${o}</span></label>`).join("")}</div>`).join("");
+ document.querySelectorAll(".opt").forEach(e=>e.onclick=()=>{
+   const i=+e.dataset.q;
+   ans[i]=+e.dataset.o;
+   document.querySelectorAll(`[data-q="${i}"]`).forEach(x=>x.classList.toggle("sel",x===e));
+   const d=ans.filter(a=>a>=0).length;
+   $("prog").textContent=d+"/"+Q.length;
+   $("pb").style.width=d/Q.length*100+"%"
+ });
+ window.scrollTo({top:0});
+}
+
+async function finish(){
+ const left=ans.filter(a=>a<0).length;
+ if(left&&!confirm(left+" soal belum dijawab. Tetap kumpulkan?"))return;
+ 
+ const btnSubmit = $("btnSubmit");
+ btnSubmit.disabled = true;
+ btnSubmit.textContent = "Mengirim Nilai...";
+
+ const benar=ans.reduce((s,a,i)=>s+(a===Q[i][2]?1:0),0);
+ const nilai=Math.round(benar/Q.length*1000)/10;
+ const rec={nama:me.nama,kelas:me.kelas,benar,nilai,waktu:new Date().toLocaleString("id-ID")};
+
+ let isSaved = false;
+
+ // Streamlined Fetch to Apps Script
+ if(APPS_SCRIPT_URL && APPS_SCRIPT_URL !== "URL_WEB_APP_GOOGLE_APPS_SCRIPT_ANDA_DI_SINI"){
+   try{
+     await fetch(APPS_SCRIPT_URL, {
+       method: "POST",
+       mode: "no-cors",
+       headers: { "Content-Type": "application/json" },
+       body: JSON.stringify(rec)
+     });
+     isSaved = true;
+   }catch(e){
+     console.error("Gagal mengirim data ke Apps Script:", e);
+   }
+ }
+
+ $("quiz").classList.add("hide");
+ const r=$("result");
+ r.classList.remove("hide");
+ r.innerHTML=`<div class="card score">
+  <div>Hasil ${me.nama} (${me.kelas})</div>
+  <div class="big">${nilai}</div>
+  <div>Benar ${benar} dari ${Q.length} soal</div>
+  <p class="note">${isSaved ? "✅ Nilai telah dikirim ke server / Google Sheets." : "⚠ Nilai gagal terkirim secara online, pastikan URL Apps Script diisi dengan benar."}</p>
+  <button class="btn" onclick="go('rekap')">Lihat Rekap Nilai</button> 
+  <button class="btn ghost" onclick="location.reload()">Siswa Berikutnya</button>
+ </div>
+ <div class="card"><h2>Pembahasan</h2>${Q.map((q,i)=>`<div class="q"><div><span class="n">${i+1}.</span> ${q[0]}</div>${q[1].map((o,j)=>`<div class="opt ${j===q[2]?"ok":(j===ans[i]?"no":"")}"><span><b>${L[j]}.</b> ${o}</span></div>`).join("")}</div>`).join("")}</div>`;
+ window.scrollTo({top:0});
+}
+
+// Fetch Rekap Data dari Apps Script
+async function fetchDataFromAppsScript(){
+  $("stat").textContent = "Mengambil data dari Google Sheets...";
+  if(!APPS_SCRIPT_URL || APPS_SCRIPT_URL.includes("AKfycbx...")){
+    $("stat").textContent = "⚠ Silakan isi APPS_SCRIPT_URL dengan benar di dalam kode.";
+    return;
+  }
+  try{
+    const res = await fetch(APPS_SCRIPT_URL);
+    const data = await res.json();
+    rows = data.map(r => ({
+      kelas: String(r.kelas || ""),
+      nama: String(r.nama || ""),
+      benar: Number(r.benar || 0),
+      nilai: Number(r.nilai || 0)
+    }));
+    render();
+  }catch(e){
+    console.error("Gagal mengambil data:", e);
+    $("stat").textContent = "⚠ Gagal memuat data dari Google Sheets.";
+  }
+}
+
+const colOf=k=>{const u=[...new Set(rows.map(r=>r.kelas))].sort();return COL[Math.max(0,u.indexOf(k))%COL.length]};
+
+function render(){
+ const ks=[...new Set(rows.map(r=>r.kelas))].sort((a,b)=>a.localeCompare(b,"id",{numeric:true}));
+ $("stat").textContent=`${rows.length} siswa • ${ks.length} kelas • Data Terintegrasi Google Sheets`;
+ $("chips").innerHTML=`<button class="chip ${filter==="ALL"?"on":""}" data-k="ALL">Semua</button>`+ks.map(k=>`<button class="chip ${filter===k?"on":""}" style="--c:${colOf(k)}" data-k="${k}">${k}</button>`).join("");
+ document.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{filter=c.dataset.k;render()});
+ $("tables").innerHTML=ks.filter(k=>filter==="ALL"||filter===k).map(k=>{
+  const r=rows.filter(x=>x.kelas===k).sort((a,b)=>b.nilai-a.nilai),avg=(r.reduce((s,x)=>s+x.nilai,0)/r.length).toFixed(1);
+  return `<div class="cls" style="--c:${colOf(k)}"><header><span>Kelas ${k}</span><span>${r.length} siswa • Rata-rata ${avg} • Tertinggi ${r[0].nilai}</span></header><div class="scroll"><table><tr><th>#</th><th>Nama</th><th>Benar</th><th>Nilai</th></tr>${r.map((x,i)=>`<tr><td>${i+1}</td><td>${esc(x.nama)}</td><td>${x.benar}/${Q.length}</td><td><span class="pill" style="background:${x.nilai>=75?"var(--ok)":"var(--bad)"}">${x.nilai}</span></td></tr>`).join("")}</table></div></div>`}).join("")||`<p class="note">Belum ada nilai masuk.</p>`;
+}
+
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function dl(){
+ if(!rows.length){ alert("Belum ada data nilai!"); return; }
+ const csv="Kelas,Nama,Benar,Nilai\n"+rows.slice().sort((a,b)=>a.kelas.localeCompare(b.kelas,"id",{numeric:true})||b.nilai-a.nilai).map(r=>[r.kelas,r.nama,r.benar,r.nilai].map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(",")).join("\n");
+ const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+ const url = URL.createObjectURL(blob);
+ const a = document.createElement("a");
+ a.href = url;
+ a.download = "rekap-nilai-mulok-xi.csv";
+ a.click();
+ URL.revokeObjectURL(url);
+}
+</script>
+</body>
+</html>
